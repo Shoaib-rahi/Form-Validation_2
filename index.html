@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- //sweet sweet-alert -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3>Registratin Form</h3>
+      </div>
+
+      <form action="" class="form">
+        <div class="form-control">
+          <label for="username">username</label>
+          <input
+            type="text"
+            placeholder="enter name"
+            id="username"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>error maeesge</small>
+        </div>
+        <div class="form-control">
+          <label for="email">email</label>
+          <input
+            type="email"
+            placeholder="enter email"
+            id="email"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>error maeesge</small>
+        </div>
+        <div class="form-control">
+          <label for="password">password</label>
+          <input
+            type="password"
+            placeholder="enter password"
+            id="password"
+            autocomplete="off"
+          />
+
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>error maeesge</small>
+        </div>
+        <div class="form-control">
+          <label for="cpassword">Confirm password</label>
+          <input
+            type="password"
+            placeholder="enter password again"
+            id="cpassword"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>error maeesge</small>
+        </div>
+        <input type="submit" value="submit" id="btn" />
+      </form>
+    </div>
+
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
